@@ -49,6 +49,10 @@ class ElectronListener {
   }
 
   suiteEnded(suite) {
+    const style = document.createElement('style')
+    style.innerHTML = '.bse { font-family: sans-serif } .bse .results form { padding: 5px 0;  }'
+    document.body.appendChild(style)
+
     const div = document.createElement('div')
     document.body.appendChild(div)
     suite.passed = this.passed
