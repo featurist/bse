@@ -7,3 +7,7 @@ A browser UI for running specs in
 ## Usage
 
     ./node_modules/.bin/node-electron ./node_modules/bse/bse.js test/*.js
+
+## Screenshot
+
+![Screenshot of bse](https://raw.githubusercontent.com/featurist/bse/master/bse-screenshot.jpg "Screenshot of bse")
